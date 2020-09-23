@@ -1,0 +1,235 @@
+/* Base */
+body {
+    font-family: Roboto, sans-serif;
+}
+h1, h2, h5 {
+    color: rgb(51, 51, 51);
+}
+h1, h2 {
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+p {
+    color: #8c8f94;
+}
+/* EO Base */
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 16px;
+}
+.btn-primary {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    background: #267df4;
+    border: 1px solid rgba(38, 39, 45, 0.1);
+}
+.btn-light {
+    border: 1px solid rgba(38, 39, 45, 0.1);
+    color: #333;
+}
+.btn-hack {
+    margin-right: 20px;
+    width: 165px;
+    text-align: left;
+}
+.btn-watch {
+    padding: 10px 48px;
+}
+/* EO Buttons */
+
+/* Header */
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+    padding: 40px 15px;
+    z-index: 100;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    padding: 0; 
+    margin: 0;
+}
+.nav-item {
+    padding: 9px 0;
+    margin-right: 40px;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}
+.nav-link {
+    color: #26272d;
+}
+.nav-link:hover {
+    color:#268df6;  
+}
+.nav-link-secondary {
+    color: rgba(38, 39, 45, 0.4);
+}
+/* EO Header */
+
+/* Hero */
+.hero {
+    position: relative;
+    background-image: url(../img/banner_background.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 800px;
+    padding-top: 120px;
+    overflow: hidden;
+    z-index: 1;
+}
+.hero-content {
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero-title {
+    font-size: 62px;
+    margin: 80px 0 0;
+}
+.hero-desc {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 0 50px;
+    padding: 10px 40px;
+}
+.hero-image {
+    position: absolute;
+    bottom: -310px;
+    left: 50%;
+    margin-left: -185px;
+}
+/* EO Hero */
+
+/* Features */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 120px auto;
+    padding-left: 60px;
+    padding-right: 80px;
+    max-width: 1170px;
+}
+.feature {
+    width: 500px;
+}
+.feature-left {
+    margin-right:80px;
+}
+.feature-title {
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.feature-desc {
+    font-size: 18px;
+    line-height: 28px;
+}
+/* EO Features */
+
+/* Info */
+.iphon-future {
+    position: relative;
+    padding: 140px 0 330px;
+    margin-bottom: 600px;
+}
+.iphon-future-device {
+   position: absolute;
+   left: -170px;
+}  
+.iphone-image {
+    width: 932px;
+    height: 800px;
+}
+.iphone-feature-spec {
+   position: absolute;
+   top: 46%;
+   left: 57.3%;
+   width: 500px;
+}
+.iphon-future-title {
+    font-size: 52px;
+    line-height: 52px;
+    margin-right: 50px;
+    margin-bottom: 64px;
+}
+.iphone-feature-desc {
+    font-size: 18px;
+    line-height: 28px;
+    padding-right: 40px;
+    margin-bottom: 60px;
+}
+/* EO Info */
+
+/* Map feature */
+.map-feature {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 680px;
+}
+.map-feature-spec {
+   position: absolute;
+   left: 175px;
+   width: 41%;
+   padding: 0 15px;
+}
+.map-feature-title {
+    font-size: 52px;
+    line-height: 52px;
+    padding-right: 80px;
+    margin-bottom: 64px;
+}
+.map-feature-desk {
+    font-size: 18px;
+    line-height: 28px;
+    padding-right: 180px;
+}
+.map-partners {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 52px 0 0;
+}
+.map-feature-link {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 28px;
+}
+.map-feature-image {
+   position: absolute;
+   top: 60px;
+   right: -230px;
+}
+.map-image {
+    width: 700px;
+}
+/* EO Map feature */
+
+
+
+
+
+
